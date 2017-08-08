@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
