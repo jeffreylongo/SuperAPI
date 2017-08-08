@@ -200,6 +200,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AljazeeraNewsController.cs" />
+    <Compile Include="Controllers\BbcNewsController.cs" />
     <Compile Include="Controllers\HackerNewsStoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -208,11 +209,13 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AljazeeraStoryModel.cs" />
+    <Compile Include="Models\BBCStoryModel.cs" />
     <Compile Include="Models\HackerNewsStoryModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AljazeeraAPIServices.cs" />
+    <Compile Include="Services\BBCApiServices.cs" />
     <Compile Include="Services\HackerNewsAPIServices.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -275,6 +278,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\HackerNewsStory\Index.cshtml" />
     <Content Include="Views\AljazeeraNews\Index.cshtml" />
+    <Content Include="Views\BbcNews\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
