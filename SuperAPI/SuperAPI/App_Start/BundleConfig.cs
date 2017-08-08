@@ -24,7 +24,7 @@ namespace SuperAPI
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/new-age.bootstrap.css",
                       "~/Content/site.css"));
         }
     }
