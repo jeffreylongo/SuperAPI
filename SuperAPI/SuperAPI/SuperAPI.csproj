@@ -204,6 +204,7 @@
     <Compile Include="Controllers\BbcNewsController.cs" />
     <Compile Include="Controllers\HackerNewsStoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IgnNewsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\WsjNewsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -215,6 +216,7 @@
     <Compile Include="Models\BBCStoryModel.cs" />
     <Compile Include="Models\HackerNewsStoryModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\IgnNewsModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\WsjNewsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -222,6 +224,7 @@
     <Compile Include="Services\ApApiServices.cs" />
     <Compile Include="Services\BBCApiServices.cs" />
     <Compile Include="Services\HackerNewsAPIServices.cs" />
+    <Compile Include="Services\IgnApiServices.cs" />
     <Compile Include="Services\WsjApiServices.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -290,6 +293,7 @@
     <Content Include="Views\BbcNews\Index.cshtml" />
     <Content Include="Views\ApNews\Index.cshtml" />
     <Content Include="Views\WsjNews\Index.cshtml" />
+    <Content Include="Views\IgnNews\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

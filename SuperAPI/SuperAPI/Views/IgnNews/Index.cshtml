@@ -1,0 +1,25 @@
+﻿@model IEnumerable<SuperAPI.Models.IgnNewsModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>IGN Top Stories</h2>
+
+
+<table class="table">
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="@Html.DisplayFor(modelItem => item.ImgUrl)" height="100" />
+        </td>
+        <td>
+            <a href="@Html.DisplayFor(modelItem => item.Url)">@Html.DisplayFor(modelItem => item.Title)</a>
+            <p></p>
+            <h5>@Html.DisplayFor(modelItem => item.Author)</h5>
+        </td>
+    </tr>
+}
+
+</table>
